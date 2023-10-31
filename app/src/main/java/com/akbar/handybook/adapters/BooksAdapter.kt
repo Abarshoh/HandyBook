@@ -7,7 +7,7 @@ import coil.load
 import com.akbar.handybook.databinding.RomanItemBinding
 import com.akbar.handybook.model.Book
 
-class BooksAdapter(val list: List<Book>, val onClickBook: OnClickBook):
+class   BooksAdapter(val list: List<Book>, val onClickBook: OnClickBook):
     RecyclerView.Adapter<BooksAdapter.MyHolder>(){
 
     class MyHolder(binding: RomanItemBinding) : RecyclerView.ViewHolder(binding.root) {
